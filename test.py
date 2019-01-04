@@ -19,3 +19,11 @@ def scatterplot(x_data, y_data, x_label="", y_label="", title="", color = "r", y
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
 
+x = [1,2,3,4,5]
+
+y = [-1,-2,-3,-4,-5]
+
+scatterplot(x, y)
+
+plt.show()
+
